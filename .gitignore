@@ -1,0 +1,12 @@
+# Dependencies, generated builds, and local environment secrets stay out of source control.
+node_modules/
+dist/
+coverage/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+.vite/
+client/.env
+server/.env
